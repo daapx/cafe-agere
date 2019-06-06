@@ -1,0 +1,20 @@
+header{
+    padding: $large $xxx-large;
+    position: relative;
+}
+
+.header__logo{
+    width: $xx-large;
+}
+
+.header__links{
+    display: inline-block;
+    margin-left: $xx-large;
+}
+
+.header__buttons{
+    position: absolute;
+    top: 2em;
+    right: $xxx-large;
+}
+
