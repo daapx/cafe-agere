@@ -10069,6 +10069,31 @@ header {
 
 .location {
   clear: both;
+  height: 30vh;
+}
+
+.location__left {
+  width: 65%;
+  float: left;
+}
+
+.location__invitation, .location__map {
+  width: 50%;
+  float: left;
+}
+
+.location__right {
+  position: relative;
+  float: right;
+  width: 35%;
+}
+
+.location__granos-cafe {
+  width: 70px;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  left: -45px;
 }
 
 /*# sourceMappingURL=main.css.map */
