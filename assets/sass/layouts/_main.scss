@@ -5,36 +5,67 @@
 .main__left{
     position: relative;
     float: left;
-    width: 65%
+    width: 70%;
+    height: 80vh;
+    background-image: url(../images/img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .main__facts{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        background-color: $white;
+
+        .main__facts-title{
+            font-size: $x-large;
+        }
+
+        .main__facts-desc{
+            font-family: $roboto;
+            font-size: $medium;
+        }
+    }
 }
 
 .main__right{
     position: relative;
-    width: 35%;
+    width: 30%;
     float: right;
-    height: 430px;
+    height: 80vh;
+
+    .main__square{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: $buff;
+        .main__square--arrow{
+            bottom: 10px;
+            left: -10px;
+            background-color: $flame;
+            z-index: 1;
+        }
+    }
+
+    .main__title{
+        font-size: $xxx-large;
+        margin-bottom: 5px;
+        padding: 0 10%;
+        margin-left: 10%
+    }
+
+    .main__subtitle{
+        font-size: $medium;
+        padding: 0 10%;
+        margin-left: 10%
+    }
 }
 
-.main__facts{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    background-color: $white;
-}
 
-.main__square{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: $buff;
-}
 
-.main__square--arrow{
-    bottom: 10px;
-    left: -10px;
-    background-color: $flame;
-    z-index: 1;
-}
+
+
+

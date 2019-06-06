@@ -10000,10 +10000,52 @@ template {
 body {
   background-color: #fff;
   font-family: "PT Mono", monospace;
+  color: #000000;
 }
 
 img {
   max-width: 100%;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a2a2a2;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.link:hover {
+  color: #454545;
+  text-decoration: none;
+}
+
+.button {
+  color: #a2a2a2;
+  border: 1px solid #a2a2a2;
+  padding: 10px;
+  background-color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #454545;
+  border: 1px solid #000000;
+}
+
+.button--green {
+  background-color: #4ca866;
+  border: 1px solid #4ca866;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.button--green:hover {
+  background-color: #9dcfab;
+  color: #989797;
+  border: 1px solid #9dcfab;
 }
 
 header {
@@ -10033,25 +10075,34 @@ header {
 .main__left {
   position: relative;
   float: left;
-  width: 65%;
+  width: 70%;
+  height: 80vh;
+  background-image: url(../images/img-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.main__right {
-  position: relative;
-  width: 35%;
-  float: right;
-  height: 430px;
-}
-
-.main__facts {
+.main__left .main__facts {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 50%;
   background-color: #fff;
 }
+.main__left .main__facts .main__facts-title {
+  font-size: 30px;
+}
+.main__left .main__facts .main__facts-desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
 
-.main__square {
+.main__right {
+  position: relative;
+  width: 30%;
+  float: right;
+  height: 80vh;
+}
+.main__right .main__square {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -10059,21 +10110,31 @@ header {
   left: 0;
   background-color: #f1dd7b;
 }
-
-.main__square--arrow {
+.main__right .main__square .main__square--arrow {
   bottom: 10px;
   left: -10px;
   background-color: #e4572e;
   z-index: 1;
 }
+.main__right .main__title {
+  font-size: 70px;
+  margin-bottom: 5px;
+  padding: 0 10%;
+  margin-left: 10%;
+}
+.main__right .main__subtitle {
+  font-size: 16px;
+  padding: 0 10%;
+  margin-left: 10%;
+}
 
 .location {
   clear: both;
-  height: 30vh;
+  height: 40vh;
 }
 
 .location__left {
-  width: 65%;
+  width: 70%;
   float: left;
 }
 
@@ -10085,7 +10146,11 @@ header {
 .location__right {
   position: relative;
   float: right;
-  width: 35%;
+  width: 30%;
+  height: 40vh;
+  background: url(../images/img-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .location__granos-cafe {

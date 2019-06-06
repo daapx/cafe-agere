@@ -1,10 +1,10 @@
 .location{
     clear: both;
-    height: 30vh;
+    height: 40vh;
 }
 
 .location__left{
-    width: 65%;
+    width: 70%;
     float: left;
 }
 
@@ -16,7 +16,11 @@
 .location__right{
     position: relative;
     float: right;
-    width: 35%;
+    width: 30%;
+    height: 40vh;
+    background: url(../images/img-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .location__granos-cafe{

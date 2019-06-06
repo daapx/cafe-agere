@@ -1,0 +1,12 @@
+.link{
+    font-size: $medium;
+    font-weight: 400;
+    color: $quick-silver;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.link:hover{
+    color: $outer-space;
+    text-decoration: none;
+}

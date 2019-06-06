@@ -1,0 +1,27 @@
+.button{
+    color: $quick-silver;
+    border: 1px solid $quick-silver;
+    padding: 10px;
+    background-color: $white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: $outer-space;
+    border: 1px solid $black;
+}
+
+.button--green{
+    background-color: $shiny-shamrock;
+    border: 1px solid $shiny-shamrock;
+    color: $white;
+    padding: 10px 20px;
+}
+
+.button--green:hover{
+    background-color: $tourquoise_green;
+    color: $spanish-gray;
+    border: 1px solid $tourquoise_green;
+}
