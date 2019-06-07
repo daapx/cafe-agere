@@ -10116,6 +10116,9 @@ header {
   left: -10px;
   background-color: #e4572e;
   z-index: 1;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
 }
 .main__right .main__title {
   font-size: 70px;
