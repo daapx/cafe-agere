@@ -10094,6 +10094,7 @@ header {
 .main__left .main__facts .main__facts-desc {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .main__right {
@@ -10130,7 +10131,7 @@ header {
 
 .location {
   clear: both;
-  height: 40vh;
+  height: 45vh;
 }
 
 .location__left {
@@ -10143,22 +10144,54 @@ header {
   float: left;
 }
 
+.location__invitation {
+  padding: 3.75rem;
+  box-sizing: border-box;
+}
+.location__invitation .location__invitation-title {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+.location__invitation .location__invitation-text {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.location__map {
+  position: relative;
+  background-color: #3c91e6;
+  height: 37vh;
+}
+.location__map img {
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+  width: 85%;
+}
+
 .location__right {
   position: relative;
   float: right;
   width: 30%;
-  height: 40vh;
+  height: 45vh;
   background: url(../images/img-2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .location__granos-cafe {
-  width: 70px;
+  width: 100px;
   height: 70%;
   position: absolute;
   top: 0;
-  left: -45px;
+  left: -50px;
+  overflow-x: hidden;
+}
+.location__granos-cafe img {
+  height: 100%;
+  width: initial;
+  max-width: 1000px;
 }
 
 /*# sourceMappingURL=main.css.map */

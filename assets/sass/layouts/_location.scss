@@ -1,6 +1,6 @@
 .location{
     clear: both;
-    height: 40vh;
+    height: 45vh;
 }
 
 .location__left{
@@ -13,20 +13,57 @@
     float: left;
 }
 
+.location__invitation{
+    padding: 3.75rem;
+    box-sizing: border-box;
+
+    .location__invitation-title{
+        font-size: $x-large;
+        margin-bottom: 1rem;
+    }
+
+    .location__invitation-text{
+        font-size: $medium;
+        font-family: $roboto;
+        font-weight: 300;
+    }
+}
+
+.location__map{
+    position: relative;
+    background-color: $blue-de-france;
+    height: 37vh;
+
+    img{
+        position: absolute;
+        bottom: -10px;
+        left: -20px;
+        width: 85%;
+    }
+}
+
+
 .location__right{
     position: relative;
     float: right;
     width: 30%;
-    height: 40vh;
+    height: 45vh;
     background: url(../images/img-2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .location__granos-cafe{
-    width: $xxx-large;
+    width: 100px;
     height: 70%;
     position: absolute;
     top: 0;
-    left: -45px;
+    left: -50px;
+    overflow-x: hidden;
+
+    img{
+        height: 100%;
+        width: initial;
+        max-width: 1000px;
+    }
 }
